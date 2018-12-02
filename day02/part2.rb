@@ -5,7 +5,7 @@ inWords = File.readlines('inputs/in').map(&:chomp)
 
 for word in inWords
     for iword in inWords
-        diffs = word.split('').select.each_with_index.to_a - iword.split('').select.each_with_index.to_a
+        diffs = word.chars.select.each_with_index.to_a - iword.chars.select.each_with_index.to_a
         if( diffs.length == 1 )
             code = word.chars
             code.delete_at(diffs[0][1])
