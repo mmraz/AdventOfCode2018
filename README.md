@@ -13,3 +13,13 @@ aoc fetch -d ## > inputs/in
 ./part2.rb | aoc submit -d ## -l 2
 aoc leaderboard
 ```
+
+Committing changes without tracking pulled inputs is done by a one time
+git-index setting to force not staging changes.
+
+```
+for i in $(seq -w 1 25)
+do
+git update-index --assume-unchanged day${i}/inputs/in
+done
+```
