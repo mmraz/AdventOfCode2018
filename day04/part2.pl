@@ -41,7 +41,7 @@ for my $shift (@inputs) {
 $sleep = $guard = 0;
 for my $g (keys %guards) {
     my $max_min = max values $guards{$g};
-    print "$max_min max_min\n";
+    print "$max_min max_min\n" if $DEBUG;
     if( $max_min > $sleep ) {
         print "$sleep <= $max_min, $guard < $g\n" if $DEBUG;
         $guard = $g;
