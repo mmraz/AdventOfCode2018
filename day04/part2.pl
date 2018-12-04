@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use List::Util qw(sum max);
+use List::Util qw(max);
 use List::UtilsBy qw(max_by);
 use Data::Dumper qw(Dumper);
 
