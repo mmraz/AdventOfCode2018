@@ -23,8 +23,7 @@ foreach my $word (sort(keys %words)) {
             splice $words{$word}, $diffsIdx[0], 1;
             my $shorter = eval(Dumper($words{$word}));
             print Dumper $shorter;
-            # prints array ref and not value, fix later
-            print join('', $shorter) . "\n";
+            print join('', @$shorter) . "\n";
             exit;
         }
     }
