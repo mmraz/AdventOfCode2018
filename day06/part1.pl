@@ -30,7 +30,7 @@ foreach my $x (0 .. $max_x) {
             sort {$$a[1] <=> $$b[1]}
             map  {[$_, abs ($inputs[$_][0] - $x) + abs ($inputs[$_][1] - $y)]} keys @inputs;
         if ($distances[0][1] == $distances[1][1]) {
-            $$grid[$x][$y] = ".";
+            $$grid[$x][$y] = "x";
         }
         else {
             $$grid[$x][$y] = $distances[0][0];
