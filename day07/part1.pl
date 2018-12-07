@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use Data::Dumper qw(Dumper);
-use List::MoreUtils qw(all uniq qsort);
+use List::MoreUtils qw(all uniq);
  
  
 my $DEBUG = 0;
