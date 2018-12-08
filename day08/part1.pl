@@ -14,8 +14,6 @@ close(FIN);
 
 print Dumper \@inputs if $DEBUG;
 
-my $children = 0;
-my $metas = 0;
 my @metadata;
 
 sub tree_build {
