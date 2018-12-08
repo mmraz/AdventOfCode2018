@@ -13,7 +13,7 @@ aoc fetch -d ## > inputs/in
 ./part2.rb | aoc submit -d ## -l 2
 aoc leaderboard
 ```
-Perl is the langiage used for most solutions and may use some CPAN library modules.  The module list to install in order to be able to run all solutions is:
+Perl is the language used for most solutions and may use some CPAN library modules.  The module list to install in order to be able to run all solutions is:
 
 ```
 List::Util
