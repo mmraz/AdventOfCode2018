@@ -13,6 +13,15 @@ aoc fetch -d ## > inputs/in
 ./part2.rb | aoc submit -d ## -l 2
 aoc leaderboard
 ```
+Perl is the langiage used for most solutions and may use some CPAN library modules.  The module list to install in order to be able to run all solutions is:
+
+```
+List::Util
+List::MoreUtils
+List::UtilsBy
+Data::Dumper (optional, required for $DEBUG being enabled)
+Array::Compare
+```
 
 Committing changes without tracking pulled inputs is done by a one time
 git-index setting to force not staging changes.
