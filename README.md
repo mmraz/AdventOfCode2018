@@ -21,6 +21,7 @@ List::MoreUtils
 List::UtilsBy
 Data::Dumper (optional, required for $DEBUG being enabled)
 Array::Compare
+Array::Circular
 ```
 
 Committing changes without tracking pulled inputs is done by a one time
